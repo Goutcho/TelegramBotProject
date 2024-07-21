@@ -9,7 +9,10 @@
     "deploy": "vue-cli-service build && gh-pages -d dist"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.19",
     "core-js": "^3.8.3",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
     "vercel": "^35.1.0",
     "vue": "^3.2.13",
     "vue-i18n": "^8.24.4"
